@@ -13,27 +13,24 @@ const Message = (props: MessagePropsType) => {
         <div id={'hw1-message-' + props.message.id} className={s.message}>
             <div className={s.imageAndText}>
                 <img id={'hw1-avatar-' + props.message.id}
-                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNX_5W-aLCS47V1-o1dPnswJjVPuySUUhTQ&usqp=CAU"
-                    // создаёт студент
-
-                    //
+                     src={props.message.user.avatar}
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
                         {/*создаёт студент*/}
-
+                        {props.message.user.name}
                         {/**/}
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-
+                        {props.message.message.text}
                         {/**/}
                     </pre>
                 </div>
             </div>
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 {/*создаёт студент*/}
-
+                {props.message.message.time}
                 {/**/}
             </div>
         </div>

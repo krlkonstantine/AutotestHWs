@@ -30,23 +30,23 @@ export type MessageType = {
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDHX7O67JV9cdAelPgB2TMxLSqjlfsQMqpRA&usqp=CAU", // можно менять
+        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9T0mwQkuBEPHSZm_BFTgziFFNVzRFRLExvQ&usqp=CAU", // можно менять
         name: 'Pedro',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
-        time: '22:00', // можно менять
+        text: 'Hi, could you give me my money back, please?', // можно менять
+        time: '01:14', // можно менять
     },
 }
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
-        avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjYTAtyvJ4SiL06Mh2zwCbhLiKXFN4g_7c9w&usqp=CAU", // можно менять
+        avatar: "https://static.vecteezy.com/system/resources/previews/008/483/640/non_2x/cute-cat-cartoon-kitten-pet-free-png.png", // можно менять
         name: 'Alexander', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        text: 'Dear bro just forget about that money', // можно менять
+        time: '09:22', // можно менять
     },
 }
 
