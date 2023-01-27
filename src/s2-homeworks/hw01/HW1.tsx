@@ -26,27 +26,26 @@ export type MessageType = {
     }
 }
 
-// структуру объекта не менять
 export const message0: MessageType = {
     id: 0,
     user: {
         avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9T0mwQkuBEPHSZm_BFTgziFFNVzRFRLExvQ&usqp=CAU", // можно менять
-        name: 'Pedro',  // можно менять
+        name: 'Pedro',
     },
     message: {
-        text: 'Hi, could you give me my money back, please?', // можно менять
-        time: '01:14', // можно менять
+        text: 'Hi, could you give me my money back, please?',
+        time: '01:14',
     },
 }
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: "https://static.vecteezy.com/system/resources/previews/008/483/640/non_2x/cute-cat-cartoon-kitten-pet-free-png.png", // можно менять
-        name: 'Alexander', // можно менять
+        name: 'Alexander',
     },
     message: {
-        text: 'Dear bro just forget about that money', // можно менять
-        time: '09:22', // можно менять
+        text: 'Dear bro just forget about that money',
+        time: '09:22',
     },
 }
 
@@ -55,13 +54,11 @@ const HW1 = () => {
         <div id={'hw1'}>
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
-                {/*проверка отображения (не менять)*/}
                 <div>
                     <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>
 
-                {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message}/>
             </div>
         </div>
