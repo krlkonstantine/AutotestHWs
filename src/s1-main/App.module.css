@@ -3,9 +3,16 @@
 }
 
 .hw {
-
+    margin: 10px;
+    padding: 10px;
 }
 
 .hwTitle {
-
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 60px;
 }

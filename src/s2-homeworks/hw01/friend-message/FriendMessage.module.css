@@ -1,5 +1,6 @@
 .friendMessage {
-
+background-color: olive;
+    float: left;
 }
 
 .friendImageAndText {
@@ -7,7 +8,11 @@
 }
 
 .friendImageAndText img {
-
+    width: 48px;
+    height: 48px;
+    left: 1162px;
+    border-radius: 50%;
+    order: 2
 }
 
 .friendText {

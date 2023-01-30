@@ -8,12 +8,13 @@ export type MessagePropsType = {
 
 const Message = (props: MessagePropsType) => {
     return (
-        <div id={'hw1-message-' + props.message.id} className={s.message}>
-            <div className={s.imageAndText}>
-                <img id={'hw1-avatar-' + props.message.id}
+        <div id={'hw1-message-' + props.message.id} className={s.messageContainer}>
+            <div className={s.imageAndTextContainer}>
+                <img className={s.imgContainer}
+                     id={'hw1-avatar-' + props.message.id}
                      src={props.message.user.avatar}
                 />
-                <div className={s.text}>
+                <div className={s.textContainer}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
                         {props.message.user.name}
                     </div>

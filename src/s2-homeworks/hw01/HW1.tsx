@@ -30,7 +30,7 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9T0mwQkuBEPHSZm_BFTgziFFNVzRFRLExvQ&usqp=CAU", // можно менять
-        name: 'Mike',
+        name: 'Johny',
     },
     message: {
         text: 'Hi, could you give me my money back, please?',
@@ -41,7 +41,7 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: "https://static.vecteezy.com/system/resources/previews/008/483/640/non_2x/cute-cat-cartoon-kitten-pet-free-png.png", // можно менять
-        name: 'Alexander',
+        name: 'Bob',
     },
     message: {
         text: 'Hey you just forget about that money',
