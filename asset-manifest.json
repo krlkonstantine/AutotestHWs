@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AutotestHWs/static/css/main.9f3763ef.css",
+    "main.js": "/AutotestHWs/static/js/main.30d0cd17.js",
+    "static/js/787.66cb4309.chunk.js": "/AutotestHWs/static/js/787.66cb4309.chunk.js",
+    "index.html": "/AutotestHWs/index.html",
+    "main.9f3763ef.css.map": "/AutotestHWs/static/css/main.9f3763ef.css.map",
+    "main.30d0cd17.js.map": "/AutotestHWs/static/js/main.30d0cd17.js.map",
+    "787.66cb4309.chunk.js.map": "/AutotestHWs/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f3763ef.css",
+    "static/js/main.30d0cd17.js"
+  ]
+}
