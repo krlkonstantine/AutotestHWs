@@ -54,7 +54,7 @@ const HW1 = () => {
         <div id={'hw1'}>
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
-                <div>
+                <div className={s2.messagesContainer}>
                     <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>

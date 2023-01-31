@@ -9,15 +9,15 @@ const FriendMessage = (props: FriendMessagePropsType) => {
     return (
         <div
             id={'hw1-friend-message-' + props.message.id}
-            className={s.friendMessage}
+            className={s.friendMessageContainer}
         >
-            <div className={s.friendImageAndText}>
-                <img
+            <div className={s.friendImageAndTextContainer}>
+                <img className={s.imgContainer}
                     id={'hw1-friend-avatar-' + props.message.id}
                     src={props.message.user.avatar}
 
                 />
-                <div className={s.friendText}>
+                <div className={s.friendTextContainer}>
                     <div
                         id={'hw1-friend-name-' + props.message.id}
                         className={s.friendName}
