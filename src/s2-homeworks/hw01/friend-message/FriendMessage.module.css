@@ -1,12 +1,12 @@
 .friendMessageContainer {
-    margin: 30px 1px 1px 3px;
-    background-color:  lightgrey;
+    margin: 15px 3px;
 
 }
 
 .friendImageAndTextContainer {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin: 5px 0;
 }
 

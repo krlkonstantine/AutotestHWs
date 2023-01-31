@@ -45,10 +45,10 @@ const MessageSender = (props: any) => {
                 <M key={'message' + m.id} message={m} />
             ))}
 
-            <div id={'hw1-send-message-form'} className={s.sendForm}>
+            <div id={'hw1-send-message-form'} className={s.sendFormContainer}>
                 <textarea
                     id={'hw1-textarea'}
-                    className={s.textarea}
+                    className={s.textareaContainer}
                     ref={textareaRef}
 
                     title={'Shift+Enter for send'}
