@@ -1,9 +1,19 @@
 .App {
     --header_height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hw {
     margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hw2Container {
+    margin: 350px 30px;
     padding: 10px;
     display: flex;
     flex-direction: column;
