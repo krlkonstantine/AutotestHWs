@@ -2,18 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20px;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 38px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
 }
 
 .checkboxes {

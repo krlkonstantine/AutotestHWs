@@ -1,11 +1,25 @@
 .button {
+    min-width: 132px;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    border: 0 solid;
 }
 
 .disabled {
+    background: #004D99;
+    opacity: 0.5;
 }
 
 .secondary {
-    background-color: cadetblue;
+    background-color: #FFFFFF ;
+    color: #0059b3;
+    border: 1px solid #0059b3;
+    min-width: 150px;
 }
 
 .default {
