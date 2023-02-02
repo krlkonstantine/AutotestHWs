@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AutotestHWs/static/css/main.01b4c8cb.css",
-    "main.js": "/AutotestHWs/static/js/main.a701634c.js",
+    "main.js": "/AutotestHWs/static/js/main.adb270e7.js",
     "static/js/787.66cb4309.chunk.js": "/AutotestHWs/static/js/787.66cb4309.chunk.js",
     "index.html": "/AutotestHWs/index.html",
     "main.01b4c8cb.css.map": "/AutotestHWs/static/css/main.01b4c8cb.css.map",
-    "main.a701634c.js.map": "/AutotestHWs/static/js/main.a701634c.js.map",
+    "main.adb270e7.js.map": "/AutotestHWs/static/js/main.adb270e7.js.map",
     "787.66cb4309.chunk.js.map": "/AutotestHWs/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01b4c8cb.css",
-    "static/js/main.a701634c.js"
+    "static/js/main.adb270e7.js"
   ]
 }
