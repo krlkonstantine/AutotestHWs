@@ -23,8 +23,8 @@ export type UserType = {
     name?: string // need to fix any
 }
 
-export const pureAddUserCallback = (name: string, setUsers: React.Dispatch<React.SetStateAction<UserType[]>>, users: UserType[]) => { // need to fix any
-    const user = {_id: Date(), name: name}
+export const pureAddUserCallback = (name: string, setUsers:(users: UserType[])=>void, users: UserType[]) => { // need to fix any
+    const user = {_id: v1(), name}
     setUsers([...users, user])
 }
 
@@ -36,6 +36,7 @@ const HW3 = () => {
     }
 
     return (
+
         <div id={'hw3'}>
             <div className={s2.hwTitle}>Homework #3</div>
             {/*для автоматической проверки дз (не менять)*/}
