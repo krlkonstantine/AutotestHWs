@@ -23,6 +23,8 @@
     border: 1px solid #D1D1D1;
     margin: 0 5px;
     padding: 4px 8px ;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .input:focus {
