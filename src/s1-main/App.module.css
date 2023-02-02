@@ -13,7 +13,7 @@
 }
 
 .hw2Container {
-    margin: 350px 30px;
+    margin: 350px 30px 50px 30px;
     padding: 10px;
     display: flex;
     flex-direction: column;
