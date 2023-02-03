@@ -6,20 +6,30 @@
     width:372px;
     height: 36px;
     border-radius: 5px;
-    border: 1px solid black;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .superInput {
+    border: 1px solid dimgrey;
 }
 
 .errorInput {
+    order: 2;
+    border: 1px solid red;
 }
 
 .errorInput:focus {
+    border: 2px solid red;
 }
 
 .error {
+    color: red;
+    order: 1;
+    font-size: 15px;
 }
