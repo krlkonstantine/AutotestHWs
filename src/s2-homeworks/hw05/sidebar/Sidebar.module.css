@@ -11,12 +11,16 @@
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 30px;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .background {
-    background-color: yellowgreen;
-
+    background-color: darkgrey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 3
 }
 
 .nav {
