@@ -22,11 +22,12 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                     <img
                         src={closeIcon}
                         alt="close sidebar"
+                        data-title="Софийский собор"
                         id={'hw5-menu-close'}
                     />
                 </button>
 
-                <nav id={'hw5-menu'} className={s.nav}>
+                <nav id={'hw5-menu'} className={open ? s.nav : ''}>
                     <NavLink
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}

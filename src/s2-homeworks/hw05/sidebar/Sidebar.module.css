@@ -1,18 +1,35 @@
 .sidebar {
+    transition: top 0.3s;
 }
 
 .sidebar.open {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 240px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 3; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px;
+    background-color: lightgrey;
 }
 
 .background {
+    background-color: yellowgreen;
+
 }
 
 .nav {
-    margin: 1px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    overflow-x: hidden;
 }
 
 .nav a {
-    color: darkgrey;
+    color: black;
     font-weight: 600;
     font-size: 22px;
     text-decoration: none;
@@ -21,15 +38,22 @@
 }
 
 .nav a:hover {
-    color: #053d77;
-
+    color: #58ACFF;
 }
 
 .nav a.active {
     color: #0059B2;
     text-decoration-line: underline;
 }
+
 .close {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    border: 0 solid transparent;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
 }
 
 .close img {
