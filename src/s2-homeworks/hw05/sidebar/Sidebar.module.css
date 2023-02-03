@@ -8,15 +8,26 @@
 }
 
 .nav {
+    margin: 1px 5px;
 }
 
 .nav a {
+    color: darkgrey;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 1px 15px;
+
 }
 
 .nav a:hover {
+    color: #053d77;
+
 }
 
 .nav a.active {
+    color: #0059B2;
+    text-decoration-line: underline;
 }
 .close {
 }
