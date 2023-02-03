@@ -22,7 +22,6 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                     <img
                         src={closeIcon}
                         alt="close sidebar"
-                        data-title="Софийский собор"
                         id={'hw5-menu-close'}
                     />
                 </button>
