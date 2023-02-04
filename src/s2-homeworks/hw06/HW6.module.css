@@ -1,5 +1,16 @@
 .buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    max-width: 300px;
+    margin: 13px 40px;
+
+
 }
 
 .editableSpanContainer {
+    background-color: #c9e5ff;
+    margin: 13px 40px;
+    width: auto;
 }

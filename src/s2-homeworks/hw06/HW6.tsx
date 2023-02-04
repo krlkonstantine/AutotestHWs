@@ -4,6 +4,7 @@ import { restoreState, saveState } from './localStorage/localStorage'
 import s2 from '../../s1-main/App.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s from './HW6.module.css'
+import {Divider} from "@mui/material";
 
 /*
  * 1 - в файле SuperEditableSpan.tsx дописать логику функций onEnterCallback, onBlurCallback, onDoubleClickCallBack
@@ -28,6 +29,7 @@ const HW6 = () => {
     return (
         <div id={'hw6'}>
             <div className={s2.hw1Title}>Hometask No. 6</div>
+            <Divider />
 
             {/*демонстрация возможностей компоненты:*/}
             <div className={s2.hw}>
@@ -45,14 +47,14 @@ const HW6 = () => {
 
                 <div className={s.buttonsContainer}>
                     <SuperButton id={'hw6-save'} onClick={save}>
-                        Save to ls
+                        Save to LS
                     </SuperButton>
                     <SuperButton
                         id={'hw6-restore'}
                         onClick={restore}
                         xType={'secondary'}
                     >
-                        Get from ls
+                        Get from LS
                     </SuperButton>
                 </div>
             </div>
