@@ -1,9 +1,26 @@
 .select {
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+    width: 172px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
-
 .select:focus {
+    color: black;
+    background-color: white;
 }
 
+.option:checked{
+    color: white;
+    background-color: darkgrey;
+}
 
-.option:hover {
+.option{
+    color: black;
+    background-color: white;
 }
