@@ -48,6 +48,7 @@ const HW7 = () => {
                     </div>
                 </div>
             </div>
+            <Divider/>
         </div>
     )
 }

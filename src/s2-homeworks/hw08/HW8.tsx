@@ -4,6 +4,7 @@ import s from './HW8.module.css'
 import s2 from '../../s1-main/App.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import User from './User'
+import {Divider} from "@mui/material";
 
 /*
 * 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом
@@ -19,12 +20,15 @@ export type UserType = {
 
 const initialPeople: UserType[] = [
     // студенты могут поменять имя/возраст/количество объектов, _id должны быть целочисленные
-    {_id: 0, name: 'Кот', age: 3},
+    {_id: 0, name: 'Фикус', age: 3},
     {_id: 1, name: 'Александр', age: 66},
     {_id: 2, name: 'Коля', age: 16},
     {_id: 3, name: 'Виктор', age: 44},
-    {_id: 4, name: 'Дмитрий', age: 40},
+    {_id: 4, name: 'Дмитрий', age: 17},
     {_id: 5, name: 'Ирина', age: 55},
+    {_id: 6, name: 'Гердосай', age: 44},
+    {_id: 7, name: 'Крем', age: 13},
+    {_id: 8, name: 'Руна', age: 11},
 ]
 
 const HW8 = () => {
@@ -55,7 +59,8 @@ const HW8 = () => {
 
     return (
         <div id={'hw3'}>
-            <div className={s2.hwTitle}>Homework #8</div>
+            <div className={s2.hw1Title}>Hometask No. 8</div>
+            <Divider/>
             <div className={s2.hw}>
                 <div className={s.container}>
                     <div className={s.buttonsContainer}>
@@ -94,6 +99,7 @@ const HW8 = () => {
                     </table>
                 </div>
             </div>
+            <Divider/>
         </div>
     )
 }
