@@ -31,32 +31,34 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
         }*/
         case 'sort': {
             if (action.payload === 'up') {
-                let sortedStateUp: UserType[] = state.sort(function (a, b) {
-                    if (a.name < b.name) {
-                        return -1;
-                    }
+                /*let stateCopy = state
+                let sortedStateUp: UserType[] = stateCopy*/
+                return [...state.sort(function (a, b) {
                     if (a.name > b.name) {
                         return 1;
                     }
+                    if (a.name < b.name) {
+                        return -1;
+                    }
                     return 0;
-                })
-                return sortedStateUp
+                })]
             } else if (action.payload === 'down') {
-                let sortedStateDown: UserType[] = state.sort(function (a, b) {
-                    if (a.name < b.name) {
-                        return 1;
-                    }
+                /*let stateCopy = state
+                let sortedStateDown: UserType[] = stateCopy*/
+                return [...state.sort(function (a, b) {
                     if (a.name > b.name) {
                         return -1;
                     }
-                    return 0;
-                })
-                return sortedStateDown
+                    if (a.name < b.name) {
+                        return 1;
+                    } else return 0;
+                })]
             }
-        }
             return state
+        }
+
         case 'check': {
-            return state.filter(usr => usr.age >= action.payload) // need to fix
+            return [...state.filter((usr) => usr.age >= action.payload)] // need to fix
         }
         default:
             return state
