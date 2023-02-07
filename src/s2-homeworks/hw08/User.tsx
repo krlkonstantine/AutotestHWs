@@ -1,6 +1,7 @@
 import React from 'react'
 import { UserType } from './HW8'
 import s from './HW8.module.css'
+import {Divider} from "@mui/material";
 
 // types
 type UserPropsType = {
@@ -18,6 +19,7 @@ const User: React.FC<UserPropsType> = ({ u }) => {
                 {u.age}
 
             </td>
+
         </tr>
     )
 }

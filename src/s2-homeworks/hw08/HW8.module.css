@@ -2,9 +2,14 @@
     /*display: flex;
     flex-wrap: wrap;
     justify-content: space-between;*/
+    height: 50px;
+    margin: 5px 0;
+    bottom:4px;
+    border-bottom: 1px solid darkgrey;
 }
 
 .item:last-of-type {
+
 }
 
 .buttonsContainer {
@@ -14,7 +19,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     box-sizing: border-box;
-
 }
 
 .container {
@@ -33,7 +37,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between;*/
