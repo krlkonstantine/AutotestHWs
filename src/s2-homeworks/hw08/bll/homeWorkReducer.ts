@@ -8,7 +8,7 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
     switch (action.type) {
         case 'sort': {
             if (action.payload === 'up') {
-                return [...state.sort(function (a, b) {
+                return [...state].sort(function (a, b) {
                     if (a.name > b.name) {
                         return 1;
                     } else if (a.name < b.name) {
@@ -16,9 +16,9 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
                     } else {
                         return 0;
                     }
-                })]
+                })
             } else if (action.payload === 'down') {
-                return [...state.sort(function (a, b) {
+                return [...state].sort(function (a, b) {
                     if (a.name > b.name) {
                         return -1;
                     } else if (a.name < b.name) {
@@ -26,7 +26,7 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
                     } else {
                         return 0
                     }
-                })]
+                })
             } else return state
         }
         case 'check': {
