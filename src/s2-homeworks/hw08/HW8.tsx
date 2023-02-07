@@ -26,7 +26,7 @@ const initialPeople: UserType[] = [
     {_id: 3, name: 'Виктор', age: 29},
     {_id: 4, name: 'Дмитрий', age: 17},
     {_id: 5, name: 'Ирина', age: 55},
-    {_id: 6, name: 'Гердосай', age: 44},
+    {_id: 6, name: 'Анатолий', age: 44},
     {_id: 7, name: 'Крем', age: 13},
     {_id: 8, name: 'Руна', age: 11},
 ]
