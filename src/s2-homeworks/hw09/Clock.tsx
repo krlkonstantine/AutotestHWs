@@ -10,11 +10,11 @@ function Clock() {
     const [show, setShow] = useState<boolean>(false)
 
     const start = () => {
-        // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
-        // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
-        setDate(new Date)
+        // создаем интервал и записываем его айди чтобы потом его зачистить
+        // в интервале создаем новую дату каждую сек и закидывает этот айди в таймер
+        // теперь кнопкам придет инфа что таймер засетали (timerId !== undefined)
+        // так мы запустили часы, каждую сек обновление даны. Ниже достаем ее значения
         let intervalId = setInterval(() => {
-            console.log('Interval++')
             setDate(new Date)
         }, 500)
         setTimerId(+intervalId)
@@ -22,8 +22,8 @@ function Clock() {
 
 
     const stop = () => {
-        // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
-        //let intervalId = setInterval(() => {setDate(new Date)}, 500)
+        // тут мы берем тот тже id интервала и зачищаем его, чтобы не обнов каждую сек
+        // и в таймер id закидываем undefined чтобы дизэйблить кнопки
         clearInterval(timerId)
         setTimerId(undefined)
     }
@@ -116,11 +116,10 @@ function Clock() {
     if (dd < 10) {
         dd = '0' + dd
     }
-    ;
     if (mm < 10) {
         mm = '0' + mm
     }
-    ;
+
 
     const formattedToday = dd + '.' + mm + '.' + yyyy;
 
@@ -150,8 +149,8 @@ function Clock() {
                 <div className={s.more}>
                     {show ? (
                         <>
-                            <span id={'hw9-month'}>{stringMonth}</span>,{' '}
-                            <span id={'hw9-date'}>{stringDate}</span>
+                            <span className={s.moreDateInfo1} id={'hw9-month'}>{', '}{stringMonth}</span>
+                            <span className={s.moreDateInfo2} id={'hw9-date'}>{stringDate}</span>
                         </>
                     ) : (
                         <>

@@ -1,14 +1,33 @@
-.buttonsContainer {
-}
-
 .clock {
+    margin-left: 45px;
 }
 
 .watch {
+    font-size: 25px;
+    line-height: 29px;
 }
 
 .watch strong {
+
 }
 
 .more {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.moreDateInfo1{
+    order: 2;
+}
+
+.buttonsContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 280px;
 }
