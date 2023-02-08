@@ -130,7 +130,7 @@ function Clock() {
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
     const stringDay = getWeekDay(date.getDay()) || <br/> // пишут студенты
     const stringMonth = getMonthName(date.getMonth()) || <br/> // пишут студенты
-
+    console.log(stringMonth)
     return (
         <div className={s.clock}>
             <div
@@ -149,8 +149,8 @@ function Clock() {
                 <div className={s.more}>
                     {show ? (
                         <>
-                            <span className={s.moreDateInfo1} id={'hw9-month'}>{', '}{stringMonth}</span>
-                            <span className={s.moreDateInfo2} id={'hw9-date'}>{stringDate}</span>
+                            <span className={s.moreDateInfo1} id={'hw9-month'}>{stringMonth}</span>
+                            <span className={s.moreDateInfo2} id={'hw9-date'}>{stringDate}</span>{', '}
                         </>
                     ) : (
                         <>
