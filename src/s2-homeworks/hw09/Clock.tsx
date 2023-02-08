@@ -89,21 +89,18 @@ function Clock() {
                 return 'July'
             }
             case 7: {
-                return 'July'
-            }
-            case 8: {
                 return 'August'
             }
-            case 9: {
+            case 8: {
                 return 'September'
             }
-            case 10: {
+            case 9: {
                 return 'October'
             }
-            case 11: {
+            case 10: {
                 return 'November'
             }
-            case 12: {
+            case 11: {
                 return 'December'
             }
         }
