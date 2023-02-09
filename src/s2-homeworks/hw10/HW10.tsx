@@ -5,6 +5,7 @@ import {InitialStateType, loadingAC} from './bll/loadingReducer'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s2 from '../../s1-main/App.module.css'
 import {Loader} from './Loader'
+import {Divider} from "@mui/material";
 
 /*
 * 1 - в файле loadingReducer.ts дописать типы и логику
@@ -37,6 +38,7 @@ const HW10 = () => {
     return (
         <div id={'hw10'}>
             <div className={s2.hw1Title}>Hometask No. 10</div>
+            <Divider/>
 
             <div className={s2.hw}>
                 {isLoading ? (
@@ -53,6 +55,7 @@ const HW10 = () => {
                     </SuperButton>
                 )}
             </div>
+            <Divider/>
         </div>
     )
 }
