@@ -11,10 +11,6 @@ const SuperRange: React.FC<SliderProps> = (props) => {
                 /*margin: '20px 0 20px 0',*/
                 left: '10px',
                 top: '50%',
-
-
-
-
             }}
             {...props} // отдаём слайдеру пропсы если они есть (value например там внутри)
         />

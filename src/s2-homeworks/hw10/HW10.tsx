@@ -20,15 +20,18 @@ const HW10 = () => {
     // В нашем случае из state-а данные для конкретного loading.
     const isLoading = useSelector<AppStoreType,boolean>((state) => {
         return state.loading.isLoading
-    })
+    }) // юз селектор исп чтобы достать стейт из редюсера. Указываем что
+    // в качестве стейта нам будет возвращаться конкретно значение isLoading, для простоты
+    // state => state.loading тоже можно было бы указать, но тогда потом писали бы
+    // isLoading.isLoading - доставали бы значение таким образом
     const dispatch = useDispatch()
 
     console.log(isLoading)
     const setLoading = () => { // пишет студент // показать крутилку на 1,5 секунд
-        // dispatch
-        // setTimeout
+        // диспатчим экшын тру, чтобы стейт поменялся и загрузка пошла
         dispatch(loadingAC(true))
-        /*const loadingId = */
+        // далее сразу устанавливаем таймер что через 1.5 секунд стейт перезапишем
+        // да так, чтобы загрузка остановилась
         setTimeout( () => {
             dispatch(loadingAC(false))
             console.log("dispatch is working")
