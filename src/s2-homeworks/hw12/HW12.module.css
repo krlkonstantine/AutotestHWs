@@ -33,19 +33,16 @@ html {
     width: 171px;
     height: 36px;
 }
-.select:active{
+.select:focus-visible{
     margin-left: 45px;
     background-color: var(--background);
     color: var(--color);
-    font-size: 20px;
-    line-height: 24px;
-    width: 171px;
-    height: 36px;
+
 }
 
 .textForSelect{
     color: var(--color);
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
     margin: 5px 0 10px 45px;
 }
