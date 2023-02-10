@@ -14,11 +14,12 @@ import {AppStoreType} from "../hw10/bll/store";
 * 4 - передать пропсы в SuperSelect
 * */
 
+// @ts-ignore
 const themes = [
     {id: 1, value: 'light'},
     {id: 2, value: 'blue'},
     {id: 3, value: 'dark'},
-    {id: 4, value: 'cat paw'},
+    {id: 4, value: <span role="img" aria-label="cat">🐾</span>},
 ]
 
 const HW12 = () => {
