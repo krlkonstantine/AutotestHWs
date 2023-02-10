@@ -16,18 +16,17 @@ import {AppStoreType} from "../hw10/bll/store";
 
 // @ts-ignore
 const themes = [
-    {id: 1, value: 'light'},
-    {id: 2, value: 'blue'},
-    {id: 3, value: 'dark'},
+    {id: 1, value: 'Light'},
+    {id: 2, value: 'Blue'},
+    {id: 3, value: 'Dark'},
     {id: 4, value: <span role="img" aria-label="cat">🐾</span>},
 ]
 
 const HW12 = () => {
-    // взять ид темы из редакса
     const themeId = useSelector<AppStoreType, number>(state => state.theme.themeId)
     const dispatch = useDispatch()
 
-    const change = (id: number) => { // дописать функцию
+    const change = (id: number) => {
         dispatch(changeThemeId(id))
     }
 
@@ -42,6 +41,7 @@ const HW12 = () => {
             </div>
             <Divider/>
             <div className={s2.hw}>
+                <span className={s.textForSelect}>Выберите тему</span>
                 <SuperSelect
                     id={'hw12-select-theme'}
                     className={s.select}
