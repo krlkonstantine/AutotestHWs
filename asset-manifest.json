@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AutotestHWs/static/css/main.70687f11.css",
-    "main.js": "/AutotestHWs/static/js/main.f85c892f.js",
+    "main.css": "/AutotestHWs/static/css/main.b1e30e8c.css",
+    "main.js": "/AutotestHWs/static/js/main.ea16f0d6.js",
     "static/js/787.66cb4309.chunk.js": "/AutotestHWs/static/js/787.66cb4309.chunk.js",
     "static/media/catPaw_bckg.jpg": "/AutotestHWs/static/media/catPaw_bckg.c1baa4407eeff28f43e9.jpg",
     "static/media/404.svg": "/AutotestHWs/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
@@ -10,12 +10,12 @@
     "static/media/checked.svg": "/AutotestHWs/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/AutotestHWs/index.html",
     "static/media/burger.svg": "/AutotestHWs/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.70687f11.css.map": "/AutotestHWs/static/css/main.70687f11.css.map",
-    "main.f85c892f.js.map": "/AutotestHWs/static/js/main.f85c892f.js.map",
+    "main.b1e30e8c.css.map": "/AutotestHWs/static/css/main.b1e30e8c.css.map",
+    "main.ea16f0d6.js.map": "/AutotestHWs/static/js/main.ea16f0d6.js.map",
     "787.66cb4309.chunk.js.map": "/AutotestHWs/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70687f11.css",
-    "static/js/main.f85c892f.js"
+    "static/css/main.b1e30e8c.css",
+    "static/js/main.ea16f0d6.js"
   ]
 }
