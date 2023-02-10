@@ -3,7 +3,7 @@ import s from './HW12.module.css'
 import s2 from '../../s1-main/App.module.css'
 import SuperSelect from '../hw07/common/c5-SuperSelect/SuperSelect'
 import {useDispatch, useSelector} from 'react-redux'
-import {changeThemeId, ThemeReducerType} from './bll/themeReducer'
+import {changeThemeId} from './bll/themeReducer'
 import {Divider} from "@mui/material";
 import {AppStoreType} from "../hw10/bll/store";
 
@@ -18,6 +18,7 @@ const themes = [
     {id: 1, value: 'light'},
     {id: 2, value: 'blue'},
     {id: 3, value: 'dark'},
+    {id: 4, value: 'cat paw'},
 ]
 
 const HW12 = () => {
@@ -45,8 +46,7 @@ const HW12 = () => {
                     className={s.select}
                     options={themes}
                     onChangeOption={change}
-                    //value={}
-                    // сделать переключение тем
+
 
                 />
             </div>

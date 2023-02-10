@@ -12,10 +12,16 @@
     --color: #FFFFFF;
     --background: #212A34;
 }
+[data-theme='4'] {
+    --color: #000000;
+    --background-image: url('../../s2-homeworks/hw12/img/catPaw_bckg.jpg');
+}
+
 
 html {
     background-color: var(--background);
     color: var(--color);
+    background-image: var(--background-image);
 }
 
 .select {
