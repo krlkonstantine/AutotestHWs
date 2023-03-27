@@ -37,19 +37,19 @@ const HW13 = () => {
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
-                setText('...все ок)')
+                setText('...всё ок)')
                 setInfo('код 200 - обычно означает что скорее всего всё ок)')
                 // дописать
 
             })
             .catch((e) => {
-                if (e.code === 'ERR_BAD_RESPONSE') {
+                if (e.code === 'ERR_BAD_REQUEST') {
                     setCode('Ошибка 400!')
                     setImage(error400)
                     setText('Ты не отправил success в body вообще!')
                     setInfo('ошибка 400 - обычно означает что скорее всего фронт отправил что-то не то на бэк!')
                 }
-                if (e.code === 'ERR_BAD_REQUEST') {
+                if (e.code === 'ERR_BAD_RESPONSE') {
                     setCode('Ошибка 500!')
                     setImage(error500)
                     setText('эмитация ошибки на сервере')
