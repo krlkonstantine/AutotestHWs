@@ -7,7 +7,6 @@ export type InitialThemeStateType = {
 export const themeReducer = (state: InitialThemeStateType = initState, action: ThemeReducerType): InitialThemeStateType => { // fix any
     switch (action.type) {
         case 'SET_THEME_ID': {
-            debugger
             return {...state, themeId: action.id}
         }
         default:

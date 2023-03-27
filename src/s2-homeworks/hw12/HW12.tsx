@@ -16,10 +16,10 @@ import {AppStoreType} from "../hw10/bll/store";
 
 // @ts-ignore
 const themes = [
-    {id: 1, value: 'Light'},
-    {id: 2, value: 'Blue'},
-    {id: 3, value: 'Dark'},
-    {id: 4, value: <span role="img" aria-label="cat">🐾</span>},
+    {id: 1, value: 'light'},
+    {id: 2, value: 'blue'},
+    {id: 3, value: 'dark'},
+    //{id: 4, value: <span role="img" aria-label="cat">🐾</span>},
 ]
 
 const HW12 = () => {
@@ -47,8 +47,6 @@ const HW12 = () => {
                     className={s.select}
                     options={themes}
                     onChangeOption={change}
-
-
                 />
             </div>
             <Divider/>
