@@ -2,6 +2,23 @@
 
 }
 
-.loading {
+.hw14Container {
+    margin: 30px 30px 50px 30px;
+}
 
+.loading {
+    max-width: 370px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #4D4D4D;
+}
+
+.input:focus {
+    border: 2px solid yellowgreen;
+}
+.input:active {
+    box-shadow: 1px 1px 2px 0 red;
 }

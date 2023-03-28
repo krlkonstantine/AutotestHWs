@@ -31,18 +31,18 @@ const HW14 = () => {
     const [techs, setTechs] = useState<string[]>([])
 
     const sendQuery = (value: string) => {
-        setLoading(true)
         getTechs(value)
             .then((res) => {
                 // делает студент
                 res && setTechs(res.data.techs)
+                setLoading(false)
                 //сохр пришедшие данные
             })
     }
 
     const onChangeText = (value: string) => {
         setFind(value)
-        sendQuery(value)
+        setLoading(true)
         // делает студент
 
         // добавить/заменить значение в квери урла
@@ -65,9 +65,9 @@ const HW14 = () => {
 
     return (
         <div id={'hw14'}>
-            <div className={s2.hwTitle}>Homework #14</div>
+            <div className={s2.hw1Title}>Hometask No. 14</div>
 
-            <div className={s2.hw}>
+            <div className={s.hw14Container}>
                 <SuperDebouncedInput
                     id={'hw14-super-debounced-input'}
                     value={find}
