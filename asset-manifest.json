@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AutotestHWs/static/css/main.48d9f8a7.css",
-    "main.js": "/AutotestHWs/static/js/main.0069052e.js",
+    "main.js": "/AutotestHWs/static/js/main.694d6983.js",
     "static/js/787.66cb4309.chunk.js": "/AutotestHWs/static/js/787.66cb4309.chunk.js",
     "static/media/catPaw_bckg.jpg": "/AutotestHWs/static/media/catPaw_bckg.c1baa4407eeff28f43e9.jpg",
     "static/media/200.svg": "/AutotestHWs/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -15,11 +15,11 @@
     "index.html": "/AutotestHWs/index.html",
     "static/media/burger.svg": "/AutotestHWs/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
     "main.48d9f8a7.css.map": "/AutotestHWs/static/css/main.48d9f8a7.css.map",
-    "main.0069052e.js.map": "/AutotestHWs/static/js/main.0069052e.js.map",
+    "main.694d6983.js.map": "/AutotestHWs/static/js/main.694d6983.js.map",
     "787.66cb4309.chunk.js.map": "/AutotestHWs/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48d9f8a7.css",
-    "static/js/main.0069052e.js"
+    "static/js/main.694d6983.js"
   ]
 }
